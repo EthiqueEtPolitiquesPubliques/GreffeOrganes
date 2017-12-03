@@ -30,8 +30,8 @@ var config = {
     {
       "id":"1",
       "question":"1. Doit-on autoriser le prélèvement et la greffe d’organes ?",
-      "positiveButtonText":"POUR",
-      "negativeButtonText":"CONTRE",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
       "positiveRaisonsIcon":"heart",
       "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
@@ -50,6 +50,7 @@ var config = {
         "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts et ne doit donc pas effectuer de prélèvements dessus",
         "La greffe est une instrumentalisation du corps humain, or l’homme est une fin en soi et ne peut donc pas être utilisé comme un moyen (Kant)"
       ],
+      seeMoreText:"Contenu de test",
       positiveRedirection:"2",
       negativeRedirection:"3",
     },

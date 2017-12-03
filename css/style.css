@@ -36,9 +36,8 @@ html::after {
 
 #question{
     font-size: 36px;
-    width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 40px;
     color: #888888;
     overflow: hidden;
     border-bottom: solid 1px #888888;
@@ -49,12 +48,12 @@ html::after {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
+    flex:1;
     justify-content: center;
     overflow: scroll;
-    bottom: 0;
     width: 100%;
-    position: absolute;
-    top: 123px;
+    height:1px;
+    position: relative;
 }
 
 #reponse-positive{
@@ -74,11 +73,11 @@ html::after {
 }
 
 .button{
-    display: flex;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     border-radius: 150px;
     margin: 40px;
+    display: block;
 }
 
 #positive-button{
@@ -90,11 +89,11 @@ html::after {
 }
 
 .button-wrapper{
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     margin: 40px;
     border-radius: 150px;
-    line-height: 220px;
+    line-height: 180px;
     text-align: center;
     color:#FFF;
     display: flex;
@@ -119,15 +118,15 @@ html::after {
 
 
 .button-top-part{
-    height: 109px;
-    line-height: 110px;
-    font-size: 40px;
+    height: 89px;
+    line-height: 90px;
+    font-size: 36px;
 }
 
 .button-bottom-part{
     padding: 0 30px ;
-    height: 110px;
-    line-height: 110px;
+    height: 90px;
+    line-height: 90px;
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -135,17 +134,24 @@ html::after {
 
 .divider{
     height: 1px;
-    width: 160px;
+    width: 120px;
     margin-left: 30px;
     text-align: center;
     background-color: white;
+}
+
+.raisons-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .raisons{
     width: 100%;
     flex:1;
     padding-top: 40px;
-    margin:40px 0;
+    padding-bottom: 40px;
     background-color: #FFFFFF;
 }
 
@@ -158,4 +164,54 @@ html::after {
 
 .row>i{
     margin: 0 15px;
+}
+
+#seemore{
+    width: 100%;
+    background: white;
+    color:#888888;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#seemore-button{
+    display: block;
+    height: 40px;
+    border: solid 1px #888888;
+    line-height: 40px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#seemore-button:hover{
+    transition: 300ms;
+    background: #888888;
+    color:#FFF;
+}
+
+#seemore-button>i{
+    margin-right: 20px;
+}
+
+#seemore-content{
+    transition: 300ms;
+    margin-top:20px;
+    text-align: left;
+    padding: 40px;
+    overflow: hidden;
+}
+
+#seemore-content.close{
+    height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#seemore-content.open{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }

@@ -13,7 +13,24 @@ var negativeButtonIcon = document.getElementById('negative-button-icon');
 var positiveRaisons = document.getElementById('positive-raisons');
 var negativeRaisons = document.getElementById('negative-raisons');
 
+var seeMore = document.getElementById('seemore');
+var seeMoreButton = document.getElementById('seemore-button');
+var seeMoreContent = document.getElementById('seemore-content');
+var seeMoreText = document.getElementById('seemore-text');
 
+
+var reponseForm = document.getElementById('reponse-form');
+
+var isMoreContentOpened = false;
+
+
+seeMoreButton.onclick = function(){
+    isMoreContentOpened ? seeMoreContent.setAttribute('class', 'close') : seeMoreContent.setAttribute('class', 'open');
+    isMoreContentOpened = !isMoreContentOpened;
+   /* setTimeout(function(){
+        reponseForm.scrollTo(0, reponseForm.scrollHeight)
+    }, 300);*/
+}
 
 
 var setQuestionText = function(text){
@@ -74,6 +91,16 @@ var setRaisons = function(container, raisons, color, defaultQuestionIcon, defaul
     container.style.color = color;
 };
 
+var setSeeMore = function(text){
+    if(!text)
+        seeMore.style.display = 'none';
+    else
+        seeMore.style.display = 'block';
+    seeMoreContent.setAttribute('class', 'close');
+    isMoreContentOpened = false;
+    seeMoreText.innerHTML = text;
+}
+
 var getQuestionById = function(id){
     for(var i = 0; i < config.questions.length ; i++){
         if(config.questions[i].id === id)
@@ -115,6 +142,8 @@ var initializePage = function(question){
     setNegativeButton(question.negativeButtonText, question.negativeIcon, question.negativeColor, question.negativeBackgroundOpacity);
     setRaisons(positiveRaisons, question.positiveRaisons, question.positiveColor, question.positiveRaisonsIcon, config.defaultStyle.positiveRaisonsIcon);
     setRaisons(negativeRaisons, question.negativeRaisons, question.negativeColor, question.negativeRaisonsIcon, config.defaultStyle.negativeRaisonsIcon);
+
+    setSeeMore(question.seeMoreText);
 
     positiveButton.onclick = function(){
         initializePage(getQuestionById(question.positiveRedirection));
