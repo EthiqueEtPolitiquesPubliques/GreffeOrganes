@@ -55,22 +55,28 @@ var config = {
     },
     {
       "id":"2",
-      "question":"Pour ou contre N°2 ?",
-      "positiveButtonText":"POUR 4",
-      "negativeButtonText":"CONTRE 5",
-      "positiveRaisonsIcon":"star",
-      "negativeRaisonsIcon":"flag",
+      "question":"2. Le consentement du donneur est-il nécessaire ?",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
-        "Parce que 5 !",
-        "Parce que 6 !",
-        "Parce que 7 !",
-        "Parce que 8 !"
+        {
+          "icon":"plus-square-o",
+          "text":"Arguments déontologiques"
+        },
+        "Le principe d’inviolabilité du corps humain implique que le consentement est nécessaire",
+        "Le consentement est la seule manière de garantir que l’homme n’est pas utilisé comme un moyen"
       ],
       "negativeRaisons":[
-        "Il n'y en a toujours pas pour la 2..."
+         {
+          "icon":"plus-square-o",
+          "text":"Arguments utilitaristes"
+        },
+        "L’objectif étant de sauver un maximum de vie, le consentement explicite ne doit pas être obligatoire ou du moins il doit être présumé"
       ],
-      positiveRedirection:"1",
-      negativeRedirection:"1",
+      positiveRedirection:"3",
+      negativeRedirection:"3",
     },
     {
       "id":"3",
