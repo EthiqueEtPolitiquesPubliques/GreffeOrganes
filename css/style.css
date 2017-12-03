@@ -150,10 +150,10 @@ html::after {
 }
 
 .row{
-    padding: 10px 0;
+    padding: 10px 40px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .row>i{
