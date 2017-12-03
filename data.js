@@ -14,8 +14,8 @@ var config = {
   firstQuestionId:"1",
   "defaultStyle":{
     "question":"Pour ou contre ?",
-    "positiveButtonText":"POUR",
-    "negativeButtonText":"CONTRE",
+    "positiveButtonText":"OUI",
+    "negativeButtonText":"NON",
     "positiveIcon":"heart",
     "negativeIcon":"heartbeat",
     "positiveColor":"#3192d3",
@@ -30,8 +30,8 @@ var config = {
     {
       "id":"1",
       "question":"1. Doit-on autoriser le prélèvement et la greffe d’organes ?",
-      "positiveButtonText":"POUR",
-      "negativeButtonText":"CONTRE",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
       "positiveRaisonsIcon":"heart",
       "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
