@@ -50,7 +50,7 @@ var config = {
         "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts et ne doit donc pas effectuer de prélèvements dessus",
         "La greffe est une instrumentalisation du corps humain, or l’homme est une fin en soi et ne peut donc pas être utilisé comme un moyen (Kant)"
       ],
-      seeMoreText:"Contenu de test",
+      seeMoreText:"Contenu de test <br> toto",
       positiveRedirection:"2",
       negativeRedirection:"3",
     },
