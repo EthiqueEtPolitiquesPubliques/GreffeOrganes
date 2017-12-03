@@ -37,7 +37,7 @@ var config = {
       "positiveRaisons":[
         {
           "icon":"plus-square-o",
-          "text":"Arguments utilitaristes"
+          "text":"<p style=\"text-decoration: underline; padding-bottom:20px;\">Arguments utilitaristes<\p>"
         },
         "La greffe permet de sauver des vies",
         "Le prélèvement d’organes sur une personne peut sauver plusieurs vies et favoriser ainsi le bien du plus grand nombre"
@@ -45,7 +45,7 @@ var config = {
       "negativeRaisons":[
         {
           "icon":"plus-square-o",
-          "text":"Arguments déontologiques"
+          "text":"<p style=\"text-decoration: underline; padding-bottom:20px;\">Arguments déontologiques<\p>"
         },
         "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts et ne doit donc pas effectuer de prélèvements dessus",
         "La greffe est une instrumentalisation du corps humain, or l’homme est une fin en soi et ne peut donc pas être utilisé comme un moyen (Kant)"
