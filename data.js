@@ -50,7 +50,7 @@ var config = {
         "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts et ne doit donc pas effectuer de prélèvements dessus",
         "La greffe est une instrumentalisation du corps humain, or l’homme est une fin en soi et ne peut donc pas être utilisé comme un moyen (Kant)"
       ],
-      seeMoreText:"- Si on pousse plus loin la logique utilitariste, on peut s’interroger sur la possibilité de sacrifier un vivant pour ses organes si cela permet de sauver plusieurs vies. <br> - Cependant le principe de non malfaisance et le dogme médical primum non nocere suggèrent l’impossibilité de tuer quelqu’un pour ses organes",
+      seeMoreText:"• Si on pousse plus loin la logique utilitariste, on peut s’interroger sur la possibilité de sacrifier un vivant pour ses organes si cela permet de sauver plusieurs vies <br> <br> • Cependant le principe de non malfaisance et le dogme médical primum non nocere suggèrent l’impossibilité de tuer quelqu’un pour ses organes",
       positiveRedirection:"2",
       negativeRedirection:"3",
     },
