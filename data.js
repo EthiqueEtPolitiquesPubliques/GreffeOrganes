@@ -29,19 +29,26 @@ var config = {
   "questions":[
     {
       "id":"1",
-      "question":"Pour ou contre N°1 ?",
-      "positiveButtonText":"POUR 2",
-      "negativeButtonText":"CONTRE 3",
-      "positiveRaisonsIcon":"star",
-      "negativeRaisonsIcon":"flag",
+      "question":"1. Doit-on autoriser le prélèvement et la greffe d’organes ?",
+      "positiveButtonText":"POUR",
+      "negativeButtonText":"CONTRE",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
-        "Parce que 1 !",
-        "Parce que 2 !",
-        "Parce que 3 !",
-        "Parce que 4 !"
+        {
+          "icon":"plus-square-o",
+          "text":"Arguments utilitaristes"
+        },
+        "La greffe permet de sauver des vies",
+        "Le prélèvement d’organes sur une personne peut sauver plusieurs vies et favoriser ainsi le bien du plus grand nombre"
       ],
       "negativeRaisons":[
-        "Il n'y en a pas..."
+        {
+          "icon":"plus-square-o",
+          "text":"Arguments déontologiques"
+        },
+        "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts et ne doit donc pas effectuer de prélèvements dessus",
+        "La greffe est une instrumentalisation du corps humain, or l’homme est une fin en soi et ne peut donc pas être utilisé comme un moyen (Kant)"
       ],
       positiveRedirection:"2",
       negativeRedirection:"3",
