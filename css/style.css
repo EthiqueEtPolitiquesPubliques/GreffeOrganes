@@ -38,11 +38,17 @@ html::after {
     font-size: 36px;
     text-align: center;
     padding: 20px 40px;
-    color: #888888;
+    color: #FFF;
     overflow: hidden;
-    border-bottom: solid 1px #888888;
-    background-color: #FFF;
+    font-variant: all-petite-caps;
+    font-weight: 200;
+    background-color: #422341;
 }
+.triangle{
+    width: 100%;
+    margin-top: -1px;
+}
+
 
 #reponse-form{
     flex-direction: row;
@@ -168,7 +174,7 @@ html::after {
 #seemore{
     width: 100%;
     background: white;
-    color:#888888;
+    color:#422341;
     text-align: center;
     padding-top: 20px;
 }
@@ -176,7 +182,7 @@ html::after {
 #seemore-button{
     display: block;
     height: 40px;
-    border: solid 1px #888888;
+    border: solid 1px #422341;
     line-height: 40px;
     text-align: center;
     width: 350px;
@@ -187,7 +193,7 @@ html::after {
 
 #seemore-button:hover{
     transition: 300ms;
-    background: #888888;
+    background: #422341;
     color:#FFF;
 }
 
