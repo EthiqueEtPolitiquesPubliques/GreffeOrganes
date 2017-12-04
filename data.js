@@ -93,8 +93,7 @@ var config = {
       "negativeRaisons":[
         "Parce qu'elle ne veut rien dire"
       ],
-      positiveRedirection:"1",
-      negativeRedirection:"2",
+      positiveRedirection:"1"
     }
   ]
 }

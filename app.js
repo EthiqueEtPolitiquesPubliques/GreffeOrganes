@@ -24,6 +24,8 @@ var reponseForm = document.getElementById('reponse-form');
 var isMoreContentOpened = false;
 
 
+var path = [];
+
 seeMoreButton.onclick = function(){
     isMoreContentOpened ? seeMoreContent.setAttribute('class', 'close') : seeMoreContent.setAttribute('class', 'open');
     isMoreContentOpened = !isMoreContentOpened;
@@ -146,11 +148,28 @@ var initializePage = function(question){
     setSeeMore(question.seeMoreText);
 
     positiveButton.onclick = function(){
-        initializePage(getQuestionById(question.positiveRedirection));
+
+        if(!question.positiveRedirection){
+            window.location = 'result.html';
+        }
+        else{
+            initializePage(getQuestionById(question.positiveRedirection));
+            path.push({id:question.id, response:1});
+            sessionStorage.path = JSON.stringify(path);
+            console.log(sessionStorage.path);
+        }
     };
 
     negativeButton.onclick = function(){
-        initializePage(getQuestionById(question.negativeRedirection));
+        if(!question.negativeRedirection){
+            window.location = 'result.html';
+        }
+        else {
+            initializePage(getQuestionById(question.negativeRedirection));
+            path.push({id: question.id, response: 0});
+            sessionStorage.path = JSON.stringify(path);
+            console.log(sessionStorage.path);
+        }
     };
 
 }
