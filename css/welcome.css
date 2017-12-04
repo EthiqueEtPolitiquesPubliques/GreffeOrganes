@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     width: 100%;
     overflow: scroll;
-    color: #35422B;
+    color: #422341;
     padding-bottom: 40px;
 }
 html::after {
@@ -45,7 +45,7 @@ h1{
     padding-top: 40px;
     padding-bottom: 10px;
     color: #FFFFFF;
-    background: #35422B;
+    background: #422341;
 }
 .triangle{
     width: 100%;
@@ -74,7 +74,7 @@ p{
 #images img{
     width: 22%;
     border-radius: 600px;
-    border: solid 3px #35422B;
+    border: solid 3px #422341;
     margin: 3%;
 }
 
@@ -89,7 +89,7 @@ p{
 }
 
 #positive-button{
-    background-color: #35422B44;
+    background-color: #42234144;
 }
 #positive-button a{
     text-decoration:none;
@@ -116,7 +116,7 @@ p{
 }
 
 #positive-button-wrapper{
-    background-color: #35422B;
+    background-color: #422341;
 }
 
 
