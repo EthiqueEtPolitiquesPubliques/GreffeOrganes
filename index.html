@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,50 +5,35 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/welcome.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
 
     <title>La greffe d'organes</title>
 </head>
 <body>
-<div id="question"></div>
-<div id="reponse-form">
-    <div id="reponse-negative">
-
-        <div id="negative-button" class="button">
-            <div id="negative-button-wrapper" class="button-wrapper">
-                <div class="button-top-part"><i id="negative-button-icon" class="fa fa-heartbeat"></i></div>
-                <div class="divider"></div>
-                <div id="negative-button-text"  class="button-bottom-part"></div>
-            </div>
-        </div>
-    </div>
-    <div id="reponse-positive">
-        <div id="positive-button" class="button">
-            <div id="positive-button-wrapper" class="button-wrapper">
-                <div class="button-top-part"><i id="positive-button-icon" class="fa fa-heart"></i></div>
-                <div class="divider"></div>
-                <div id="positive-button-text" class="button-bottom-part"></div>
-            </div>
-        </div>
-    </div>
-    <div id="seemore">
-        <div id="seemore-button"> <i class="fa fa-search-plus"></i> Pour aller plus loin...</div>
-        <div id="seemore-content"class="close">
-            <div id="seemore-text"></div>
-        </div>
-    </div>
-    <div class="raisons-container">
-        <div id="negative-raisons" class="raisons">
-
-        </div>
-        <div id="positive-raisons" class="raisons">
-
-        </div>
-    </div>
-
+<h1>Greffe d'organes</h1>
+<div class="triangle">
+    <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg"><polygon fill="#695d46" points="0 0, 100 0, 0 10"></polygon></svg>
 </div>
+<h2>Quelle politique pour quelle éthique ?</h2>
+<div id="images">
+    <img src="assets/img1.jpg"/>
+    <img src="assets/img2.jpg"/>
+    <img src="assets/img3.jpg"/>
+</div>
+<p>Réalisé dans le cadre d’un cours à Sciences Po, ce site internet permet à chacun de créer la politique publique encadrant le prélèvement et la greffe d’organe qui correspond le mieux à ses convictions éthiques.
+    <br>La politique publique est suggérée en fonction des réponses données à une série de questions concernant la greffe. Chaque question est accompagnée d’arguments éthiques en faveur de chacune des options possibles afin d’aider dans le choix. Ces éléments n’ont pas vocation à être exhaustifs mais à donner une idée du débat possible à chaque étape. Quand cela permet une compréhension plus concrète des enjeux, quelques exemples sont parfois détaillés. Un bouton “Pour aller plus loin...” permet également d’accéder à des cas particuliers n’ayant pas été intégrés afin d’alléger l’arbre décisionnel.
+</p>
+
+<div id="positive-button" class="button">
+    <a href="./index.html">
+        <div id="positive-button-wrapper" class="button-wrapper">
+            <div class="button-top-part"><i id="positive-button-icon" class="fa fa-stethoscope"></i></div>
+            <div class="divider"></div>
+            <div id="positive-button-text" class="button-bottom-part">COMMENCER</div>
+        </div>
+    </a>
+</div>
+
 </body>
-<script src="data.js"></script>
-<script src="app.js"></script>
 </html>

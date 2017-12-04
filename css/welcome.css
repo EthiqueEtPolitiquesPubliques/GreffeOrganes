@@ -1,0 +1,143 @@
+* {
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 15px;
+    font-variant: normal;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    background: #FFFFFF;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+    color: #695d46;
+    padding-bottom: 40px;
+}
+html::after {
+    content: "";
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    z-index: -1;
+    opacity: 0.3;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 200;
+    text-align: center;
+    font-variant: all-petite-caps;
+    padding: 0 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    background: #695d46;
+}
+.triangle{
+    width: 100%;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+p{
+    padding: 40px 40px;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 40px;
+
+}
+#images{
+    padding: 10px;
+    text-align: center;
+}
+#images img{
+    width: 22%;
+    border-radius: 600px;
+    border: solid 3px #695d46;
+    margin: 3%;
+}
+
+
+.button{
+    width: 260px;
+    height: 260px;
+    border-radius: 150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#positive-button{
+    background-color: rgba(20,146,211,0.2);
+}
+#positive-button a{
+    text-decoration:none;
+}
+
+.button-wrapper{
+    width: 180px;
+    height: 180px;
+    margin: 40px;
+    border-radius: 150px;
+    line-height: 180px;
+    text-align: center;
+    color:#FFF;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 300ms;
+    transform: scale(1);
+}
+
+.button-wrapper:hover{
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#positive-button-wrapper{
+    background-color: rgba(20,146,211,1);
+}
+
+
+.button-top-part{
+    height: 89px;
+    line-height: 90px;
+    font-size: 36px;
+}
+
+.button-bottom-part{
+    padding: 0 30px ;
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.divider{
+    height: 1px;
+    width: 120px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: white;
+}
