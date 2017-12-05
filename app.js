@@ -155,6 +155,7 @@ var initializePage = function(question){
 
         if(!question.positiveRedirection){
             window.location = 'result.html';
+            positiveButton.onclick = undefined;
         }
         else{
             initializePage(getQuestionById(question.positiveRedirection));
@@ -168,6 +169,7 @@ var initializePage = function(question){
 
         if(!question.negativeRedirection){
             window.location = 'result.html';
+            negativeButton.onclick = undefined;
         }
         else {
             initializePage(getQuestionById(question.negativeRedirection));

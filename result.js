@@ -42,7 +42,20 @@ var getPathQuestion = function(dataQuetion){
 };
 
 //Create Graph
-var responseNodes = [{id:"start", level:0, label: 'Départ', color:'#49c5b6', borderWidthSelected:1}, {id:"end", level:config.questions.length*2, label: 'Fin', borderWidthSelected:1, color:'#49c5b6'}];
+var responseNodes = [{
+    id:"start",
+    level:0,
+    label: 'Départ',
+    color:'#718C1D',
+    borderWidthSelected:1,
+    border:'#FFB000'
+}, {
+    id:"end",
+    level:config.questions.length*2,
+    label: 'Fin',
+    color:'#718C1D',
+    borderWidthSelected:1,
+    border:'#FFB000'}];
 var edges = [{from:"start", to:config.firstQuestionId}];
 var question, pathQuestion;
 for (var i = 0; i < config.questions.length; i++) {
@@ -53,31 +66,97 @@ for (var i = 0; i < config.questions.length; i++) {
         id:question.id,
         level:i*2,
         label: question.graphLabel,
-        color:{background:pathQuestion?'#49c5b6':'#422341', border :'#422341'}
+        color:{border:pathQuestion?'#FFB000':'#422341', background :'#422341',highlight:'#422341', hover: '#422341'}
 
     });
 
     if(!pathQuestion)
         pathQuestion = {response:''};
 
-    var color = {background:pathQuestion.response === 1?'#49c5b6':config.defaultStyle.positiveColor, border :config.defaultStyle.positiveColor};
-    responseNodes.push({level:i*2+1,id:'RP' + question.id, label: question.positiveButtonText, borderWidthSelected:1, color:config.defaultStyle.positiveColor, color:color});
-    edges.push({from: question.id, to: 'RP' + question.id, color:config.defaultStyle.positiveColor});
+    var color = {
+        border:pathQuestion.response === 1?'#FFB000':config.defaultStyle.positiveColor,
+        background :config.defaultStyle.positiveColor,
+        highlight:config.defaultStyle.positiveColor,
+        hover: config.defaultStyle.positiveColor
+    };
+
+    responseNodes.push({
+        level:i*2+1,id:'RP' + question.id,
+        label: question.positiveButtonText,
+        borderWidthSelected:1,
+        color:color});
+
+    edges.push({
+        from: question.id, to: 'RP' + question.id,
+        color:{
+            color:config.defaultStyle.positiveColor,
+            inherit:false,
+            highlight:config.defaultStyle.positiveColor,
+            hover: config.defaultStyle.positiveColor
+        }
+    });
 
     if(question.positiveRedirection) {
-        edges.push({from: 'RP' + question.id, to: question.positiveRedirection, color:config.defaultStyle.positiveColor});
+        edges.push({
+            from: 'RP' + question.id,
+            to: question.positiveRedirection,
+            color:{
+                color:config.defaultStyle.positiveColor,
+                inherit:false,
+                highlight:config.defaultStyle.positiveColor,
+                hover: config.defaultStyle.positiveColor
+            }
+        });
     }
     else{
-        edges.push({from:'RP' + question.id, to: question.positiveRedirection, to:'end', color:'black'});
+        edges.push({
+            from:'RP' + question.id,
+            to:'end',
+            color:{
+                color:config.defaultStyle.positiveColor,
+                inherit:false,
+                highlight:config.defaultStyle.positiveColor,
+                hover: config.defaultStyle.positiveColor
+            }
+        });
     }
-    var color = {background:pathQuestion.response === 0?'#49c5b6':config.defaultStyle.negativeColor, border :config.defaultStyle.negativeColor};
-    responseNodes.push({level:i*2+1,id:'RN' + question.id, label: question.negativeButtonText, borderWidthSelected:1, color:config.defaultStyle.negativeColor, color:color});
-    edges.push({from: question.id, to: 'RN' + question.id, color:config.defaultStyle.negativeColor});
+    var color = {
+        border:pathQuestion.response === 0?'#FFB000':config.defaultStyle.negativeColor,
+        background :config.defaultStyle.negativeColor
+    };
+    responseNodes.push({
+        level:i*2+1,id:'RN' + question.id,
+        label: question.negativeButtonText,
+        borderWidthSelected:1,
+        color:color});
+
+    edges.push({
+        from: question.id,
+        to: 'RN' + question.id,
+        color:{
+            color:config.defaultStyle.negativeColor,
+            inherit:false,
+            highlight:config.defaultStyle.negativeColor,
+            hover: config.defaultStyle.negativeColor
+        }
+    });
     if(question.negativeRedirection) {
-        edges.push({from: 'RN' + question.id, to: question.negativeRedirection, color:config.defaultStyle.negativeColor});
+        edges.push({
+            from: 'RN' + question.id,
+            to: question.negativeRedirection,
+            color:{
+                color:config.defaultStyle.negativeColor,
+                inherit:false,
+                highlight:config.defaultStyle.negativeColor,
+                hover: config.defaultStyle.negativeColor
+            }
+        });
     }
     else{
-        edges.push({from:'RN' + question.id, to:'end', color:'black'});
+        edges.push({
+            from:'RN' + question.id,
+            to:'end',
+            color:'black'});
     }
 }
 
@@ -92,7 +171,7 @@ var data = {
     edges: edges
 };
 var options = {
-    nodes: {borderWidth:4,font:{color:'white', size:15, face:'Helvetica'}, borderWidthSelected:1 ,shape:'circle', margin:10, chosen:false},
+    nodes: {borderWidth:3,font:{color:'white', size:15, face:'Helvetica'}, borderWidthSelected:1 ,shape:'circle', margin:10, chosen:false},
     interaction: {hover: true},
     layout: {
         hierarchical: {

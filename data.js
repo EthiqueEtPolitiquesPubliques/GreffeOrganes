@@ -86,8 +86,8 @@ var config = {
       "id":"3",
       "graphLabel":"Question nulle",
       "question":"Aimez vous cette question N°3 ?",
-      "positiveButtonText":"OUI",
-      "negativeButtonText":"NON",
+      "positiveButtonText":"OUEP",
+      "negativeButtonText":"NOP",
       "positiveRaisonsIcon":"heart",
       "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
