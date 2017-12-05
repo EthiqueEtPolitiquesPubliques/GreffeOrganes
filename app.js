@@ -149,26 +149,28 @@ var initializePage = function(question){
 
     positiveButton.onclick = function(){
 
+        path.push({id:question.id, response:1});
+        sessionStorage.path = JSON.stringify(path);
+        console.log(sessionStorage.path);
+
         if(!question.positiveRedirection){
             window.location = 'result.html';
         }
         else{
             initializePage(getQuestionById(question.positiveRedirection));
-            path.push({id:question.id, response:1});
-            sessionStorage.path = JSON.stringify(path);
-            console.log(sessionStorage.path);
         }
     };
 
     negativeButton.onclick = function(){
+        path.push({id: question.id, response: 0});
+        sessionStorage.path = JSON.stringify(path);
+        console.log(sessionStorage.path);
+
         if(!question.negativeRedirection){
             window.location = 'result.html';
         }
         else {
             initializePage(getQuestionById(question.negativeRedirection));
-            path.push({id: question.id, response: 0});
-            sessionStorage.path = JSON.stringify(path);
-            console.log(sessionStorage.path);
         }
     };
 

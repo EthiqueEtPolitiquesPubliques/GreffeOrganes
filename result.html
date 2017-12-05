@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/result.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
 
     <title>La greffe d'organes</title>
 </head>
@@ -15,12 +16,33 @@
 <div class="triangle">
     <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg"><polygon fill="#422341" points="0 0, 100 0, 0 10"></polygon></svg>
 </div>
+
+<h2>Vos choix</h2>
+<div id="legend">
+    <div class="turquoise">
+        <i class="fa fa-circle"></i>En turquoise, votre parcours.
+    </div>
+    <div class="violet">
+        <i class="fa fa-circle"></i>En violet, l'ensemble des questions.
+    </div>
+    <div class="bleu">
+        <i class="fa fa-circle"></i>En bleu, les réponses associées aux arguments utilitaristes.
+    </div>
+    <div class="rouge">
+        <i class="fa fa-circle"></i>En rouge, les réponses associées aux arguments déontologiques.
+    </div>
+</div>
+<div id="graph"></div>
+
+
 <h2>Composition de votre politique publique</h2>
 <div id="result"></div>
 <div id="conclusion">
     <h3>Conclusion :</h3>
     Conclusion Blablabla</div>
 </body>
+<script src="http://visjs.org/dist/vis.js"></script>
+<script src="data.js"></script>
 <script src="responses.js"></script>
 <script src="result.js"></script>
 </html>

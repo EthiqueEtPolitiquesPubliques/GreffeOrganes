@@ -12,7 +12,7 @@ var responses = {
     },
     "3":{
         responsePositive:"Bravo, vous êtes d'accord avec nous  sur la 3 !",
-        responseNegative:"Vous avez répondu à la question 3, c'est pas bien !",
+        responseNegative:"Vous avez répondu NON à la question 3, c'est pas bien !",
         section:"2"
     },
     "4":{

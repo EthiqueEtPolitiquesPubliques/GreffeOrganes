@@ -29,6 +29,7 @@ var config = {
   "questions":[
     {
       "id":"1",
+      "graphLabel":"Autorisation",
       "question":"1. Doit-on autoriser le prélèvement et la greffe d’organes ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
@@ -57,6 +58,7 @@ var config = {
     },
     {
       "id":"2",
+      "graphLabel":"Consentement",
       "question":"2. Le consentement du donneur est-il nécessaire ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
@@ -82,6 +84,7 @@ var config = {
     },
     {
       "id":"3",
+      "graphLabel":"Question nulle",
       "question":"Aimez vous cette question N°3 ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
@@ -93,7 +96,6 @@ var config = {
       "negativeRaisons":[
         "Parce qu'elle ne veut rien dire"
       ],
-      positiveRedirection:"1"
     }
   ]
 }
