@@ -54,7 +54,7 @@ var config = {
 
       seeMoreText:"• Si on pousse plus loin la logique utilitariste, on peut s’interroger sur la possibilité de sacrifier un vivant pour ses organes si cela permet de sauver plusieurs vies. <br> <br> • Cependant le principe de non malfaisance et le dogme médical primum non nocere suggèrent l’impossibilité de tuer quelqu’un pour ses organes.",
       positiveRedirection:"2",
-      negativeRedirection:"3",
+      negativeRedirection:"2",
     },
     {
       "id":"2",
@@ -104,27 +104,25 @@ var config = {
       positiveRedirection:"4",
       negativeRedirection:"4",
     },
-         {
+    {
       "id":"4",
-      "graphLabel":"Prélèvement sur vivants",
-      "question":"4. Doit-on autoriser le prélèvement d’organes sur les vivants ?",
+      "graphLabel":"Choix des organes",
+      "question":"4. Peut-on choisir les tissus/organes que l'on accepte de donner après sa mort ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
       "positiveRaisonsIcon":"heart",
       "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
-      "La personne en attente de greffe est exposée à un risque de mort qui surpasse les séquelles potentielles sur le vivant."
+      "Certains organes sont symboliques dans l’imaginaire des personnes, notamment le coeur (associé aux sentiments) et les yeux. Pour les proches du défunt, cela peut être difficile d’imaginer qu’une autre personne porte le coeur de celui-ci, ou d’imaginer son corps sans les yeux."
       ],
       "negativeRaisons":[
-      "Le prélèvement sur un vivant rend le respect de l’anonymat complexe voire impossible (dans le cas où l’on considère l’anonymat comme étant essentiel).",
-      "Le donneur n’a aucun intérêt à donner un organe à un individu tiers anonymisé. A l’inverse, la décision du donneur relève-t-elle vraiment d’un consentement libre et éclairé ? N’est-il pas aveuglé par l’amour ou la culpabilité ?",
-      "On prend le risque de favoriser la corruption pour accélérer ou favoriser le don d’organe. Cette situation ne se présente pas dans le cas où l’individu est mort."
+      "Beaucoup de patients attendent une greffe de coeur : il y a environ deux patients pour un greffon utilisable. Le choix des organes peut amener à diminuer encore le nombre d’organes disponibles."
       ],
-      seeMoreText:"• Le cas du don de moelle osseuse est spécifique : on peut être donneur de son vivant même si l’on ne connaît pas le receveur. Cela se justifie éthiquement par le problème de compatibilité HLA qui est déterminante pour la réussite de la greffe (phénomène de GVH - greffon versus hôte). En effet, en plus de nécessiter un donneur vivant, la compatibilité en terme de moelle osseuse est nécessaire puisque le système immunitaire lui même est concerné par la greffe. L’accès très restreint à de la moelle a suscité un système permettant l'augmentation de l’échantillon d’organes disponibles. Le risque est moindre pour un donneur de moelle que pour un donneur d’organe car la moelle se régénère (comme le sang), ce qui n’est pas le cas d’un organe. De plus, il s’agit d’un risque différé : on est inscrit sur une liste de donneur et l'hôpital nous contact seulement en cas de besoin. <br> <br> • Le don croisé, qui a été autorisé en France par la loi de bioéthique de 2011, suscite également des questions. Si une personne décide de donner un organe à l’un de ses proches mais qu’elle n’est pas compatible avec le système immunitaire de ce dernier, il peut effectuer un don croisé. Il s’agit de réunir deux « couples » donneurs-receveurs présentant une compatibilité entre eux et d’échanger les organes tout en conservant l’anonymat, sans toutefois permettre le don d'organe à un inconnu. <br> <br> • La question du consentement pour le prélèvement d’organe chez les vivants s’intègre dans le débat plus large de la nécessité du consentement en médecine ou dans le cadre de recherches biomédicales. Etant donné que le consentement libre et éclairé est presque unanimement reconnu en médecine, il semblerait logique que celui-ci soit reconnu dans le cas des donneurs vivants. En effet, si l’on demande le consentement des patients pour leur administrer des traitements bénéfiques à leur santé, il est d’autant plus nécessaire de demander le consentement pour le prélèvement d’organe qui n’apporte aucun bénéfice au donneur.",
+      seeMoreText:"• L’Affaire d’Amiens. Un jeune homme de 19 ans s’est retrouvé en état de mort cérébrale après un accident de la route. Un médecin a demandé à ses parents s'il pouvait prélever le coeur, les reins et le foie et ils ont accepté. Mais ils ont découvert plus tard que l’équipe médicale avait aussi prélevé les deux cornées, sans en avoir demandé l’autorisation. L’équipe médicale avait vraisemblablement omis volontairement de poser la question pour éviter un refus. La question du prélèvement des yeux était complexe puisque la loi Lafay indiquait que la greffe des cornées ou globes oculaires ne peut se faire qu’à partir un leg testamentaire. Mais la loi Cavaillet de 1976 avait introduit le principe de consentement présumé pour les tissus, qui prévaut. Les plaintes de la famille ont donc été rejetées par la justice. Cette affaire a ébranlé la confiance des Français envers le don d’organe et a conduit à créer le registre national des refus, pour clarifier l’information. Depuis le 1er janvier 2017, il est possible d’indiquer sur ce registre un refus partiel pour certains organes.",
       positiveRedirection:"5",
       negativeRedirection:"5",
     },
-             {
+     {
       "id":"5",
       "graphLabel":"Anonymat donneur",
       "question":"5. Doit-on garantir l’anonymat du don d’organe quand cela est possible ? (le donneur n'est pas un proche)",
@@ -144,10 +142,30 @@ var config = {
       positiveRedirection:"6",
       negativeRedirection:"6",
     },
-      {
+         {
       "id":"6",
+      "graphLabel":"Prélèvement sur vivants",
+      "question":"6. Doit-on autoriser le prélèvement d’organes sur les vivants ?",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
+      "positiveRaisons":[
+      "La personne en attente de greffe est exposée à un risque de mort qui surpasse les séquelles potentielles sur le vivant."
+      ],
+      "negativeRaisons":[
+      "Le prélèvement sur un vivant rend le respect de l’anonymat complexe voire impossible (dans le cas où l’on considère l’anonymat comme étant essentiel).",
+      "Le donneur n’a aucun intérêt à donner un organe à un individu tiers anonymisé. A l’inverse, la décision du donneur relève-t-elle vraiment d’un consentement libre et éclairé ? N’est-il pas aveuglé par l’amour ou la culpabilité ?",
+      "On prend le risque de favoriser la corruption pour accélérer ou favoriser le don d’organe. Cette situation ne se présente pas dans le cas où l’individu est mort."
+      ],
+      seeMoreText:"• Le cas du don de moelle osseuse est spécifique : on peut être donneur de son vivant même si l’on ne connaît pas le receveur. Cela se justifie éthiquement par le problème de compatibilité HLA qui est déterminante pour la réussite de la greffe (phénomène de GVH - greffon versus hôte). En effet, en plus de nécessiter un donneur vivant, la compatibilité en terme de moelle osseuse est nécessaire puisque le système immunitaire lui même est concerné par la greffe. L’accès très restreint à de la moelle a suscité un système permettant l'augmentation de l’échantillon d’organes disponibles. Le risque est moindre pour un donneur de moelle que pour un donneur d’organe car la moelle se régénère (comme le sang), ce qui n’est pas le cas d’un organe. De plus, il s’agit d’un risque différé : on est inscrit sur une liste de donneur et l'hôpital nous contact seulement en cas de besoin. <br> <br> • Le don croisé, qui a été autorisé en France par la loi de bioéthique de 2011, suscite également des questions. Si une personne décide de donner un organe à l’un de ses proches mais qu’elle n’est pas compatible avec le système immunitaire de ce dernier, il peut effectuer un don croisé. Il s’agit de réunir deux « couples » donneurs-receveurs présentant une compatibilité entre eux et d’échanger les organes tout en conservant l’anonymat, sans toutefois permettre le don d'organe à un inconnu. <br> <br> • La question du consentement pour le prélèvement d’organe chez les vivants s’intègre dans le débat plus large de la nécessité du consentement en médecine ou dans le cadre de recherches biomédicales. Etant donné que le consentement libre et éclairé est presque unanimement reconnu en médecine, il semblerait logique que celui-ci soit reconnu dans le cas des donneurs vivants. En effet, si l’on demande le consentement des patients pour leur administrer des traitements bénéfiques à leur santé, il est d’autant plus nécessaire de demander le consentement pour le prélèvement d’organe qui n’apporte aucun bénéfice au donneur.",
+      positiveRedirection:"7",
+      negativeRedirection:"7",
+    },
+      {
+      "id":"7",
       "graphLabel":"Rémunération",
-      "question":"6. Doit-on rémunérer le don d'organes ?",
+      "question":"7. Doit-on rémunérer le don d'organes ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
       "positiveRaisonsIcon":"heart",
@@ -163,24 +181,6 @@ var config = {
       "La transplantation des organes s’est construite autour de la gratuité (on parle de « don ») tant chez les professionnels que pour le public : sa « marchandisation » heurte les représentations sociales en place, et pourrait donc avoir un effet contre-productif (« dégoût moral »)."
       ],
       seeMoreText:"• Au delà du remboursement des frais relatifs au dons (comme c’est le cas en France), certains pays ont mis en place un système d’indemnisation: c’est le cas en Israël, où le don d’organe est “indemnisé” à hauteur de 18000 shekels (soit 3500 euros). Cependant, il est difficile d’établir une distinction claire entre indemnisation et rémunération : s’agit-il d’une indemnisation qui vient compenser la prise de risques et les potentielles complications, ou bien d’une rémunération incitative ? <br> <br> • En Iran, rare pays à avoir légalisé la vente d’organes, le donneur reçoit 1200 dollars et un an d’assurance maladie de la part de l’Etat, en plus de la rémunération fournie par le receveur. Si ce système a permis de combler la pénurie d’organes et de sauver des vies, il présente également des limites : les dons, motivés par des raisons financières, ont souvent eu des conséquences négatives sur l’état de santé et le statut professionnel des donneurs ; par ailleurs, la légalisation du commerce d’organes n’a pas permi de mettre fin au marché noir.",
-      positiveRedirection:"7",
-      negativeRedirection:"7",
-    },
-     {
-      "id":"7",
-      "graphLabel":"Choix des organes",
-      "question":"7. Peut-on choisir les tissus/organes que l'on accepte de donner après sa mort ?",
-      "positiveButtonText":"OUI",
-      "negativeButtonText":"NON",
-      "positiveRaisonsIcon":"heart",
-      "negativeRaisonsIcon":"heartbeat",
-      "positiveRaisons":[
-      "Certains organes sont symboliques dans l’imaginaire des personnes, notamment le coeur (associé aux sentiments) et les yeux. Pour les proches du défunt, cela peut être difficile d’imaginer qu’une autre personne porte le coeur de celui-ci, ou d’imaginer son corps sans les yeux."
-      ],
-      "negativeRaisons":[
-      "Beaucoup de patients attendent une greffe de coeur : il y a environ deux patients pour un greffon utilisable. Le choix des organes peut amener à diminuer encore le nombre d’organes disponibles."
-      ],
-      seeMoreText:"• L’Affaire d’Amiens. Un jeune homme de 19 ans s’est retrouvé en état de mort cérébrale après un accident de la route. Un médecin a demandé à ses parents s'il pouvait prélever le coeur, les reins et le foie et ils ont accepté. Mais ils ont découvert plus tard que l’équipe médicale avait aussi prélevé les deux cornées, sans en avoir demandé l’autorisation. L’équipe médicale avait vraisemblablement omis volontairement de poser la question pour éviter un refus. La question du prélèvement des yeux était complexe puisque la loi Lafay indiquait que la greffe des cornées ou globes oculaires ne peut se faire qu’à partir un leg testamentaire. Mais la loi Cavaillet de 1976 avait introduit le principe de consentement présumé pour les tissus, qui prévaut. Les plaintes de la famille ont donc été rejetées par la justice. Cette affaire a ébranlé la confiance des Français envers le don d’organe et a conduit à créer le registre national des refus, pour clarifier l’information. Depuis le 1er janvier 2017, il est possible d’indiquer sur ce registre un refus partiel pour certains organes.",
       positiveRedirection:"8",
       negativeRedirection:"8",
     },
