@@ -124,8 +124,29 @@ var config = {
       positiveRedirection:"5",
       negativeRedirection:"5",
     },
-        {
+             {
       "id":"5",
+      "graphLabel":"Anonymat donneur",
+      "question":"5. Doit-on garantir l’anonymat du don d’organe quand cela est possible ? (le donneur n'est pas un proche)",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
+      "positiveRaisons":[
+      "L’anonymat permet de protéger psychologiquement les proches du donneur et le receveur.",
+      "Cela permet aussi d’éviter que les proches du donneur décédé ne rencontrent des personnes ayant reçu des organes de la personne décédée. Certains organes ont une grande valeur symbolique pour des individus (comme le coeur) ; il peut être mal vécu de rencontrer la personne ayant hérité du coeur de sa défunte compagne / défunt compagnon.",
+      "De même, éviter au receveur de connaître l’identité du donneur permet de l'exempter d’un sentiment de redevance envers ce dernier ou sa famille.",
+      "Un organe n’est pas un cadeau mais un don: il doit être emprunt d’universalité sans attendre un retour."
+      ],
+      "negativeRaisons":[
+      "L’absence d’anonymat permet une reconnaissance envers le donneur et sa famille qui sont ainsi valorisés dans la démarche : si l’atteinte de l’intégrité du corps peut être difficile à accepter par la famille, les bénéfices de cette atteinte peuvent rendre le prélèvement plus acceptable."
+      ],
+      positiveRedirection:"6",
+      negativeRedirection:"6",
+    },
+    
+        {
+      "id":"6",
       "graphLabel":"Question nulle",
       "question":"Aimez vous cette question N°3 ?",
       "positiveButtonText":"OUEP",
