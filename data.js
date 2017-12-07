@@ -80,7 +80,6 @@ var config = {
         "Si la mort cérébrale est le critère retenu pour définir la mort, le prélèvement ne peut pas se faire sur quelqu’un dont les autres organes sont encore en fonction."
       ],
       seeMoreText:"• Comment définit-on la mort ? Est-ce simplement l’arrêt du système cardio-vasculaire ou la cessation de fonctionnement du système nerveux central ? De nombreux autres critères peuvent encore être retenus. <br> <br> • En France, l’état de mort cérébrale a été retenu comme nouvelle définition de la mort pour permettre le prélèvement d’organes en bon état.",
-",
       positiveRedirection:"3",
       negativeRedirection:"3",
     },
