@@ -166,20 +166,24 @@ var config = {
       positiveRedirection:"7",
       negativeRedirection:"7",
     },
-        {
+     {
       "id":"7",
-      "graphLabel":"Question nulle",
-      "question":"Aimez vous cette question N°3 ?",
-      "positiveButtonText":"OUEP",
-      "negativeButtonText":"NOP",
+      "graphLabel":"Choix des organes",
+      "question":"7. Peut-on choisir les tissus/organes que l'on accepte de donner après sa mort ?",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
       "positiveRaisonsIcon":"heart",
       "negativeRaisonsIcon":"heartbeat",
       "positiveRaisons":[
-        "Parce qu'elle est originale !",
+      "Certains organes sont symboliques dans l’imaginaire des personnes, notamment le coeur (associé aux sentiments) et les yeux. Pour les proches du défunt, cela peut être difficile d’imaginer qu’une autre personne porte le coeur de celui-ci, ou d’imaginer son corps sans les yeux."
       ],
       "negativeRaisons":[
-        "Parce qu'elle ne veut rien dire"
+      "Beaucoup de patients attendent une greffe de coeur : il y a environ deux patients pour un greffon utilisable. Le choix des organes peut amener à diminuer encore le nombre d’organes disponibles."
       ],
-    }
+      seeMoreText:"• L’Affaire d’Amiens. Un jeune homme de 19 ans s’est retrouvé en état de mort cérébrale après un accident de la route. Un médecin a demandé à ses parents s'il pouvait prélever le coeur, les reins et le foie et ils ont accepté. Mais ils ont découvert plus tard que l’équipe médicale avait aussi prélevé les deux cornées, sans en avoir demandé l’autorisation. L’équipe médicale avait vraisemblablement omis volontairement de poser la question pour éviter un refus. La question du prélèvement des yeux était complexe puisque la loi Lafay indiquait que la greffe des cornées ou globes oculaires ne peut se faire qu’à partir un leg testamentaire. Mais la loi Cavaillet de 1976 avait introduit le principe de consentement présumé pour les tissus, qui prévaut. Les plaintes de la famille ont donc été rejetées par la justice. Cette affaire a ébranlé la confiance des Français envers le don d’organe et a conduit à créer le registre national des refus, pour clarifier l’information. Depuis le 1er janvier 2017, il est possible d’indiquer sur ce registre un refus partiel pour certains organes.",
+      positiveRedirection:"8",
+      negativeRedirection:"8",
+    },
+     
   ]
 }
