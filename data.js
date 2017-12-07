@@ -54,7 +54,6 @@ var config = {
 
       seeMoreText:"• Si on pousse plus loin la logique utilitariste, on peut s’interroger sur la possibilité de sacrifier un vivant pour ses organes si cela permet de sauver plusieurs vies. <br> <br> • Cependant le principe de non malfaisance et le dogme médical primum non nocere suggèrent l’impossibilité de tuer quelqu’un pour ses organes.",
       positiveRedirection:"2",
-      negativeRedirection:"2",
     },
     {
       "id":"2",
