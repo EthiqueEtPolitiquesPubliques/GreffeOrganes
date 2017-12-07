@@ -58,8 +58,8 @@ var config = {
     },
     {
       "id":"2",
-      "graphLabel":"Consentement",
-      "question":"2. Le consentement du donneur est-il nécessaire ?",
+      "graphLabel":"Prélèvement sur mort",
+      "question":"2. Doit-on autoriser le prélèvement post-mortem ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
       "positiveRaisonsIcon":"heart",
@@ -67,18 +67,20 @@ var config = {
       "positiveRaisons":[
         {
           "icon":"plus-square-o",
-          "text":"Arguments déontologiques"
+          "text":"Arguments utilitaristes"
         },
-        "Le principe d’inviolabilité du corps humain implique que le consentement est nécessaire",
-        "Le consentement est la seule manière de garantir que l’homme n’est pas utilisé comme un moyen"
+        "Si la survie d’un individu dépend d’un prélèvement d’organe sur un mort, la possibilité de sauver une vie doit primer sur le respect de l’intégrité du corps du défunt."
       ],
       "negativeRaisons":[
          {
           "icon":"plus-square-o",
-          "text":"Arguments utilitaristes"
+          "text":"Arguments déontologiques"
         },
-        "L’objectif étant de sauver un maximum de vie, le consentement explicite ne doit pas être obligatoire ou du moins il doit être présumé"
+        "Il est impossible de recevoir le consentement d’un mort au moment du prélèvement d’organe. Même si le consentement a été reçu au préalable, celui-ci était peut-être déterminé par des facteurs n’existant plus au moment du prélèvement.",
+        "Si la mort cérébrale est le critère retenu pour définir la mort, le prélèvement ne peut pas se faire sur quelqu’un dont les autres organes sont encore en fonction."
       ],
+      seeMoreText:"• Comment définit-on la mort ? Est-ce simplement l’arrêt du système cardio-vasculaire ou la cessation de fonctionnement du système nerveux central ? De nombreux autres critères peuvent encore être retenus. <br> <br> • En France, l’état de mort cérébrale a été retenu comme nouvelle définition de la mort pour permettre le prélèvement d’organes en bon état.",
+",
       positiveRedirection:"3",
       negativeRedirection:"3",
     },
