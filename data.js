@@ -125,7 +125,7 @@ var config = {
       negativeRedirection:"5",
     },
         {
-      "id":"6",
+      "id":"5",
       "graphLabel":"Question nulle",
       "question":"Aimez vous cette question N°3 ?",
       "positiveButtonText":"OUEP",
