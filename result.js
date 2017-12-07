@@ -156,7 +156,12 @@ for (var i = 0; i < config.questions.length; i++) {
         edges.push({
             from:'RN' + question.id,
             to:'end',
-            color:'black'});
+            color:{
+                color:config.defaultStyle.negativeColor,
+                inherit:false,
+                highlight:config.defaultStyle.negativeColor,
+                hover: config.defaultStyle.negativeColor
+            }});
     }
 }
 
