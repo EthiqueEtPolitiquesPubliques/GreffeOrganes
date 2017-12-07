@@ -44,7 +44,7 @@ var responses = {
         responsePositive:"Outre les critères d’urgence et de faisabilité, les comportements et mérites des individus peuvent conditionner l’accès à la greffe ou leur place dans la liste d’attente, lors d’une procédure de greffe d’organes.",
         responseNegative:"Seuls les critères d’urgence et de faisabilité doivent être pris en compte comme condition d’accès à la greffe d’organes. Aucun critère comportemental ne peut être retenu comme condition d’accès à la greffe.",
         section:"4"
-    },
+    }
 };
 
 var sections = {
