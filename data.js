@@ -204,6 +204,24 @@ var config = {
       seeMoreText:"• La greffe d’utérus n’en est encore qu’au stade d’expérimentation, elle ne fait pas l’objet de lois dans les pays concernés (Suède, Royaume-Uni, France, Brésil). A ce jour 38 greffes d’utérus ont été réalisées, qui ont donné lieu à 8 naissances en Suède. La greffe d’utérus ne fonctionne pas systématiquement : dans 25% des cas le greffons a dû être explanté, à la suite d’une thrombose principalement. Il existe un délai entre la greffe et la possibilité d’avoir un enfant: il faut attendre un an avant d’implanter un embryon (obtenu par fécondation in vitro) pour limiter les risques de rejet. Pour le moment, seules les greffes à partir d’une donneuse vivante ont abouti à des naissances.",
       positiveRedirection:"9",
       negativeRedirection:"9",
-    }     
+    } 
+    {
+      "id":"9",
+      "graphLabel":"Sélection du receveur",
+      "question":"9. Doit-on ajouter les critères comportementaux et de mérites à ceux d’urgence et de faisabilité dans le choix du receveur ?",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
+      "positiveRaisons":[
+      "Nos choix individuels conditionnent notre état de santé. Dès lors nos comportements devraient impacter notre accès au don d'organe. Un fumeur ou une personne ayant effectué une tentative de suicide (par exemple en ingérant une dose importante de médicament ayant causé des dommages irréversibles au foie) ne devrait pas être prioritaire par rapport à un individu atteint d’une pathologie indépendante de son comportement.",
+      "Le principe de solidarité doit être réciproque. Une personne refusant de donner ses organes, en s’inscrivant par exemple sur le registre des refus, ne doit pas être prioritaire dans l’accès à la greffe."
+      ],
+      "negativeRaisons":[
+      "La santé des individus prime sur leur comportement : le système de santé doit donner des chances égales à chaque personne sans considérer leurs choix de vie et comportements personnels.",
+      "De nombreux déterminants socio-culturels voire génétiques conditionnent nos comportements. Ces derniers ne sont donc pas le résultat d’un choix libre et ne peuvent pas nous être imputés. Notamment, les comportements à risque sont plus fréquents chez les populations défavorisées. Intégrer une sélection sur les comportements reviendrait à augmenter leur précarité."
+      ],
+      seeMoreText:"• Si l’ordre de priorité est conditionné par le comportement des demandeurs, on peut s’interroger sur la finesse de l’analyse que l’on entreprend. Si l’on prend le cas d’un médecin dévoué qui a sauvé de nombreuses vies dans le cadre de son travail, mais qui possède une faiblesse pour la cigarette : devrait-il être défavorisé dans la liste d’attente pour une greffe de poumons ?",
+    } 
   ]
 }
