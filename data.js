@@ -144,9 +144,30 @@ var config = {
       positiveRedirection:"6",
       negativeRedirection:"6",
     },
-    
-        {
+      {
       "id":"6",
+      "graphLabel":"Rémunération",
+      "question":"5. Doit-on rémunérer le don d'organes ?",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
+      "positiveRaisons":[
+      "Toute personne est libre de disposer de son corps. La motivation financière n’est pas indigne en soi, la condamner  par principe est un jugement moral.",
+      "Chaque année en France, plus de 200 personnes meurent faute d’organes disponibles. D’un point de vue utilitariste, la rémunération peut constituer un facteur incitatif : il serait immoral de laisser mourir de potentiels receveurs si la rémunération peut résoudre efficacement le manque d’organes.",
+      "La légalisation du commerce d’organes - et donc sa régulation par l’Etat – permettrait de limiter les trafics d’organes. L’interdiction ne fait que condamner les plus pauvres à vendre leurs organes dans des conditions de prélèvement dangereuses."
+      ],
+      "negativeRaisons":[
+      "Le corps est constitutif de la personne humaine et doit rester hors-commerce. La gratuité permet d’autoriser le prélèvement en évitant que le corps soit assimilable à un objet de commerce. Au contraire, la vente ou l’incitation au don d’organes par moyens financiers traite le corps humain comme une chose.",
+      "Une décision ne peut être considérée comme libre et autonome lorsque la personne est sous l’emprise de la nécessité. Payer peut constituer une forme de contrainte, dans la mesure où cela amène une personne dans le besoin à faire quelque chose qu’elle n’aurait pas faite sinon.",
+      "La transplantation des organes s’est construite autour de la gratuité (on parle de « don ») tant chez les professionnels que pour le public : sa « marchandisation » heurte les représentations sociales en place, et pourrait donc avoir un effet contre-productif (« dégoût moral »)."
+      ],
+      seeMoreText:"• Au delà du remboursement des frais relatifs au dons (comme c’est le cas en France), certains pays ont mis en place un système d’indemnisation: c’est le cas en Israël, où le don d’organe est “indemnisé” à hauteur de 18000 shekels (soit 3500 euros). Cependant, il est difficile d’établir une distinction claire entre indemnisation et rémunération : s’agit-il d’une indemnisation qui vient compenser la prise de risques et les potentielles complications, ou bien d’une rémunération incitative ? <br> <br> • Le don croisé, qui a été autorisé en France par la loi de bioéthique de 2011, suscite également des questions. Si une personne décide de donner un organe à l’un de ses proches mais qu’elle n’est pas compatible avec le système immunitaire de ce dernier, il peut effectuer un don croisé. Il s’agit de réunir deux « couples » donneurs-receveurs présentant une compatibilité entre eux et d’échanger les organes tout en conservant l’anonymat, sans toutefois permettre le don d'organe à un inconnu. <br> <br> • En Iran, rare pays à avoir légalisé la vente d’organes, le donneur reçoit 1200 dollars et un an d’assurance maladie de la part de l’Etat, en plus de la rémunération fournie par le receveur. Si ce système a permis de combler la pénurie d’organes et de sauver des vies, il présente également des limites : les dons, motivés par des raisons financières, ont souvent eu des conséquences négatives sur l’état de santé et le statut professionnel des donneurs ; par ailleurs, la légalisation du commerce d’organes n’a pas permi de mettre fin au marché noir.",
+      positiveRedirection:"7",
+      negativeRedirection:"7",
+    },
+        {
+      "id":"7",
       "graphLabel":"Question nulle",
       "question":"Aimez vous cette question N°3 ?",
       "positiveButtonText":"OUEP",
