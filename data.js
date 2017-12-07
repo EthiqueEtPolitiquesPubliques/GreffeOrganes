@@ -29,7 +29,7 @@ var config = {
   "questions":[
     {
       "id":"1",
-      "graphLabel":"Autorisation",
+      "graphLabel":"Autorisation greffe",
       "question":"1. Doit-on autoriser le prélèvement et la greffe d’organes ?",
       "positiveButtonText":"OUI",
       "negativeButtonText":"NON",
@@ -83,8 +83,29 @@ var config = {
       positiveRedirection:"3",
       negativeRedirection:"3",
     },
-    {
+     {
       "id":"3",
+      "graphLabel":"Consentement morts",
+      "question":"2. Pour le don post-mortem, le consentement du donneur doit-il être présumé ou explicite ?",
+      "positiveButtonText":"EXPLICITE",
+      "negativeButtonText":"PRÉSUMÉ",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
+      "positiveRaisons":[
+      "L’objectif étant de sauver un maximum de vies, le consentement explicite ne doit pas être obligatoire car il limiterait l’accès aux organes des individus ne s’étant pas posé la question de leur vivant.",
+      "Si un individu n’a pas exprimé un consentement explicite de son vivant, sa conviction risque d’être subordonnée à la volonté de ses proches.",
+      "Si la personne est formellement contre le don d’organe, il est possible pour elle de s’inscrire sur un registre des refus."
+      ],
+      "negativeRaisons":[
+      "Le principe d’inviolabilité du corps humain implique que le consentement explicite est nécessaire. On ne saurait présumer de la volonté d’un individu pour le bien commun. La charité n’est pas une obligation.",
+      "Le consentement est la seule manière de garantir que l’homme n’est pas utilisé comme un moyen, mais toujours perçu comme une fin en soi."
+      ],
+      seeMoreText:"• Dans le cas d’un donneur mort, il faut s’interroger sur la place de la famille et des proches qui peuvent influencer la procédure de don au moment de son décès. Quand le consentement explicite était nécessaire, on recherchait souvent l’avis du défunt sur la question par le biais des proches. La famille pouvait dès lors substituer ses propres convictions à l’avis du défunt. <br> <br> • Aujourd’hui encore, malgré la loi française présumant le consentement, il est parfois difficile d’aller à l’encontre de la volonté des proches du fait de l’impact psychologique que cela aurait sur les survivants. <br> <br> • Le consentement présumé a également été contesté car, en pratique, il permet de prélever les organes des SDF sans famille en toute légalité. En effet, alors qu’avant la loi les sans abris exprimaient rarement leur consentement explicite pour le don, on peut désormais prélever leurs organes et personne ne s’y oppose car ils sont généralement peu entourés au moment de leur décès. <br> <br> • Enfin, on pourrait aussi envisager de faire primer le consentement des proches survivants sur celui du défunt car ce sont eux qui vivent l’expérience traumatisante du prélèvement. De plus, puisque le donneur est mort, il ne possède plus d’autonomie et d’avis sur la question.",
+      positiveRedirection:"4",
+      negativeRedirection:"4",
+    },
+        {
+      "id":"4",
       "graphLabel":"Question nulle",
       "question":"Aimez vous cette question N°3 ?",
       "positiveButtonText":"OUEP",
