@@ -204,7 +204,7 @@ var config = {
       seeMoreText:"• La greffe d’utérus n’en est encore qu’au stade d’expérimentation, elle ne fait pas l’objet de lois dans les pays concernés (Suède, Royaume-Uni, France, Brésil). A ce jour 38 greffes d’utérus ont été réalisées, qui ont donné lieu à 8 naissances en Suède. La greffe d’utérus ne fonctionne pas systématiquement : dans 25% des cas le greffons a dû être explanté, à la suite d’une thrombose principalement. Il existe un délai entre la greffe et la possibilité d’avoir un enfant: il faut attendre un an avant d’implanter un embryon (obtenu par fécondation in vitro) pour limiter les risques de rejet. Pour le moment, seules les greffes à partir d’une donneuse vivante ont abouti à des naissances.",
       positiveRedirection:"9",
       negativeRedirection:"9",
-    } 
+    }, 
     {
       "id":"9",
       "graphLabel":"Sélection du receveur",
