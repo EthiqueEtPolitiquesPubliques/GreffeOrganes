@@ -184,6 +184,26 @@ var config = {
       positiveRedirection:"8",
       negativeRedirection:"8",
     },
-     
+    {
+      "id":"8",
+      "graphLabel":"Greffes non-thérapeutiques",
+      "question":"8. Doit-on autoriser les “greffes non-thérapeutiques” comme la greffe d’utérus ?",
+      "positiveButtonText":"OUI",
+      "negativeButtonText":"NON",
+      "positiveRaisonsIcon":"heart",
+      "negativeRaisonsIcon":"heartbeat",
+      "positiveRaisons":[
+      "Les limites entre le normal et le pathologique sont parfois équivoques, dès lors il est délicat d’interdire ou d’autoriser certaines greffes. Par exemple, on peut considérer que l’infertilité d’origine utérine est une pathologie, étant donné qu’il s’agit d’un écart à la norme impactant considérablement la vie de ces femmes. Bien que cela ne soit pas vital, la greffe d’utérus est le seul traitement contre cette affection.",
+      "Les greffes de convenance permettent parfois de répondre à d’autres problématiques sociales ou médicales qui méritent d’être prises en compte. Dans le cas de la greffe d’utérus, cela permet potentiellement d’éviter une GPA - qui est éthiquement contestable - et permet de préserver le rapport de la mère à l’enfant."
+      ],
+      "negativeRaisons":[
+      "La finalité de la médecine est thérapeutique. S’il existe des exceptions, notamment avec l’assistance médicale à la procréation ou certaines prothèses, on ne peut pas accepter de risquer la vie d’un donneur vivant ou de diminuer le nombre d’organes disponibles pour des raisons non-thérapeutiques ou de convenances.",
+      "La greffe d’utérus n’est pas thérapeutique, elle est même temporaire: on retire le greffon après l’accouchement pour limiter l’exposition de la mère aux traitements immunosuppresseurs.",
+      "L’utérus est un organe symbolique car associé à la procréation: il permet la gestation et la mise au monde d’un enfant, il ne peut donc être banalisé."
+      ],
+      seeMoreText:"• La greffe d’utérus n’en est encore qu’au stade d’expérimentation, elle ne fait pas l’objet de lois dans les pays concernés (Suède, Royaume-Uni, France, Brésil). A ce jour 38 greffes d’utérus ont été réalisées, qui ont donné lieu à 8 naissances en Suède. La greffe d’utérus ne fonctionne pas systématiquement : dans 25% des cas le greffons a dû être explanté, à la suite d’une thrombose principalement. Il existe un délai entre la greffe et la possibilité d’avoir un enfant: il faut attendre un an avant d’implanter un embryon (obtenu par fécondation in vitro) pour limiter les risques de rejet. Pour le moment, seules les greffes à partir d’une donneuse vivante ont abouti à des naissances.",
+      positiveRedirection:"9",
+      negativeRedirection:"9",
+    }     
   ]
 }
