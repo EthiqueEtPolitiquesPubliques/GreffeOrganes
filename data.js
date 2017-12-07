@@ -40,19 +40,19 @@ var config = {
           "icon":"plus-square-o",
           "text":"<p style=\"text-decoration: underline; padding-bottom:20px;\">Arguments utilitaristes<\p>"
         },
-        "La greffe permet de sauver des vies",
-        "Le prélèvement d’organes sur une personne peut sauver plusieurs vies et favoriser ainsi le bien du plus grand nombre"
+        "La greffe permet de sauver des vies.",
+        "Le prélèvement d’organes sur une personne peut sauver plusieurs vies et favoriser ainsi le bien du plus grand nombre."
       ],
       "negativeRaisons":[
         {
           "icon":"plus-square-o",
           "text":"<p style=\"text-decoration: underline; padding-bottom:20px;\">Arguments déontologiques<\p>"
         },
-        "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts et ne doit donc pas effectuer de prélèvements dessus",
-        "La greffe est une instrumentalisation du corps humain, or l’homme est une fin en soi et ne peut donc pas être utilisé comme un moyen (Kant)"
+        "Au nom de la sacralité de la vie et de l’intégrité du corps humain, on doit le respect aux corps des défunts : on ne peut donc effectuer de prélèvements dessus.",
+        "Selon l’impératif catégorique de Kant, l’homme est une fin en soi et ne peut donc pas être utilisé comme moyen. La greffe n’est donc pas acceptable car elle constitue une instrumentalisation du corps humain."
       ],
 
-      seeMoreText:"• Si on pousse plus loin la logique utilitariste, on peut s’interroger sur la possibilité de sacrifier un vivant pour ses organes si cela permet de sauver plusieurs vies <br> <br> • Cependant le principe de non malfaisance et le dogme médical primum non nocere suggèrent l’impossibilité de tuer quelqu’un pour ses organes",
+      seeMoreText:"• Si on pousse plus loin la logique utilitariste, on peut s’interroger sur la possibilité de sacrifier un vivant pour ses organes si cela permet de sauver plusieurs vies. <br> <br> • Cependant le principe de non malfaisance et le dogme médical primum non nocere suggèrent l’impossibilité de tuer quelqu’un pour ses organes.",
       positiveRedirection:"2",
       negativeRedirection:"3",
     },
