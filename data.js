@@ -221,7 +221,7 @@ var config = {
       "La santé des individus prime sur leur comportement : le système de santé doit donner des chances égales à chaque personne sans considérer leurs choix de vie et comportements personnels.",
       "De nombreux déterminants socio-culturels voire génétiques conditionnent nos comportements. Ces derniers ne sont donc pas le résultat d’un choix libre et ne peuvent pas nous être imputés. Notamment, les comportements à risque sont plus fréquents chez les populations défavorisées. Intégrer une sélection sur les comportements reviendrait à augmenter leur précarité."
       ],
-      seeMoreText:"• Si l’ordre de priorité est conditionné par le comportement des demandeurs, on peut s’interroger sur la finesse de l’analyse que l’on entreprend. Si l’on prend le cas d’un médecin dévoué qui a sauvé de nombreuses vies dans le cadre de son travail, mais qui possède une faiblesse pour la cigarette : devrait-il être défavorisé dans la liste d’attente pour une greffe de poumons ?",
+      seeMoreText:"• Si l’ordre de priorité est conditionné par le comportement des demandeurs, on peut s’interroger sur la finesse de l’analyse que l’on entreprend. Si l’on prend le cas d’un médecin dévoué qui a sauvé de nombreuses vies dans le cadre de son travail, mais qui possède une faiblesse pour la cigarette : devrait-il être défavorisé dans la liste d’attente pour une greffe de poumons ?"
     } 
   ]
 }
