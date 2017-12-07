@@ -61,12 +61,12 @@ h2{
 }
 
 h3{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 200;
+    text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 0 40px;
-    color: #422341;
 }
 
 .section{
