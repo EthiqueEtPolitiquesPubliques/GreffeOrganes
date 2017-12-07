@@ -48,7 +48,7 @@ var responses = {
 };
 
 var sections = {
-    "1" : " ",
+    "1" : 'PREAMBULE',
     "2" : 'TITRE Ier. Prélèvement post-mortem',
     "3" : 'TITRE II. Prélèvement sur vivants',
     "4" : "TITRE III. Conditions d'accès à la greffe"
