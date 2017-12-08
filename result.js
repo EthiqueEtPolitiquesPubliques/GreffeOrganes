@@ -186,6 +186,9 @@ var options = {
     edges: {
         smooth: true,
         arrows: {to : true}
+    },
+    interaction:{
+        zoomView:false
     }
 }
 var network = new vis.Network(container, data, options);
